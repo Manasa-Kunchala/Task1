@@ -32,7 +32,7 @@ public class UuidGenerator implements RequestHandler<Object, String> {
     private AmazonS3 s3 = AmazonS3ClientBuilder.standard().build();
  
     public String handleRequest(Object request, Context context) {
-        String bucket = "cmtr-9e564e24-uuid-storage"; 
+        String bucket = "cmtr-9e564e24-uuid-storage-test"; 
         String key = Instant.now().toString();
  
      
