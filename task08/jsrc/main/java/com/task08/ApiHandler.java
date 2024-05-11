@@ -9,7 +9,7 @@ import com.syndicate.deployment.annotations.lambda.LambdaHandler;
 import com.syndicate.deployment.model.RetentionSetting;
 
 @LambdaHandler(lambdaName = "api_handler",
-	roleName = "api_handler-role",
+	roleName = "api_handler-role-test",
 	isPublishVersion = false,
 	logsExpiration = RetentionSetting.SYNDICATE_ALIASES_SPECIFIED
 )
